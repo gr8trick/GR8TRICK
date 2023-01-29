@@ -1,0 +1,15 @@
+ /* Safelink */
+.S_Button{display: inline-flex;display: -webkit-inline-flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;align-items: center;-webkit-align-items: center;margin-bottom: 10px;padding: 9px 20px;border-radius: 10px;font-size: .8rem;line-height: 1.3rem;background-color: #282828;color: #fff;border: 1px solid #fff;}}
+.S_Button.outline{background-color:#282828;box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);}
+.safelink span{display: block;font-size: 12px}
+.blockLink{display: flex;display: -webkit-flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;align-items: center;-webkit-align-items: center}
+.blockLink > div{display: block;width: 35%;}
+.blockLink > div#go-link{width: 30%;}
+.blockLink > div#go-link a{display: none;margin: 0}
+.blockLink > div#go-link:target a{display: inline-flex;
+    text-decoration: none;
+}
+.ads-top{margin: 0 0 20px 0;text-align: center}
+
+/* Responsive */
+@media screen and (max-width: 768px){.blockLink > div{width: 100% !important;margin: 0 0 15px;text-align: center}.blockLink > div:last-child{margin: 0}}
